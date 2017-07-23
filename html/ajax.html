@@ -27,7 +27,7 @@
 			    document.getElementById("txtHint").innerHTML=xmlhttp.responseText;
 			    }
 			  }
-			xmlhttp.open("GET","../data/data.php?q="+str,true);
+			xmlhttp.open("GET","http://wthrcdn.etouch.cn/WeatherApi?city="+str,true);
 			xmlhttp.send();
 			}
     	</script>
